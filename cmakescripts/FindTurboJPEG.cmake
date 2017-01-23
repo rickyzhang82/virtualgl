@@ -19,7 +19,7 @@ else()
 endif()
 include_directories(${TJPEG_INCLUDE_DIR})
 
-set(DEFAULT_TJPEG_LIBRARY /opt/libjpeg-turbo/lib${BITS}/libturbojpeg.a)
+set(DEFAULT_TJPEG_LIBRARY /opt/libjpeg-turbo/lib/libturbojpeg.a)
 
 set(TJPEG_LIBRARY_OVERRIDE 0)
 if(TJPEG_LIBRARY)
